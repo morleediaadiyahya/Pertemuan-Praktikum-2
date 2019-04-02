@@ -1,0 +1,32 @@
+Microsoft Windows [Version 10.0.17763.379]
+(c) 2018 Microsoft Corporation. All rights reserved.
+
+C:\Users\User>python
+Python 3.7.1 (default, Dec 10 2018, 22:09:34) [MSC v.1915 32 bit (Intel)] :: Anaconda, Inc. on win32
+Type "help", "copyright", "credits" or "license" for more information.
+>>> def PenentuNilai(nilai):
+...   if(nilai<=100 and nilai >=80):
+...             print("Nilai A")
+...   elif(nilai<80 and nilai >=70):
+...             print("Nilai B")
+...   elif(nilai<70 and nilai >=60):
+...             print("Nilai C")
+...   elif(nilai<60 and nilai >=40):
+...             print("Nilai D")
+...   elif(nilai<40 and nilai >=0):
+...             print("Nilai E")
+...   else:
+...             print("Format Yang Anda Masukan Salah")
+...
+>>> PenentuNilai(100)
+Nilai A
+>>> PenentuNilai(79)
+Nilai B
+>>> PenentuNilai(68)
+Nilai C
+>>> PenentuNilai(55)
+Nilai D
+>>> PenentuNilai(10)
+Nilai E
+>>> PenentuNilai(101)
+Format Yang Anda Masukan Salah
